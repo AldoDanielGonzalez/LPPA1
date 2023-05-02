@@ -1,0 +1,39 @@
+ol {
+  counter-reset: item;
+  list-style-type: none;
+}
+
+li {
+  display: block;
+}
+
+li::before {
+  content: counters(item, ".") " ";
+  counter-increment: item;
+  margin-right: 5px; 
+}
+
+ol ol {
+  counter-reset: subitem;
+}
+
+ol ol li {
+  display: block;
+}
+
+ol ol li::before {
+  content: counters(item, ".") "." counters(subitem, ".") " ";
+  counter-increment: subitem;
+  margin-right: 5px;
+}
+
+
+
+  .bola {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: purple;
+    margin: auto;
+
+  }
