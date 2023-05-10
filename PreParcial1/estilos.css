@@ -1,0 +1,93 @@
+body {
+margin: 10px 0px;
+font-family: verdana;
+font-size:large;
+width:800px;
+}
+
+
+header {
+    color: white;
+    display: block;
+    padding: 10px 0px 10px 0px;
+    background-color: rgb(9, 159, 134);
+    text-align: center;
+    width: 95%;
+    
+  }
+
+  footer {
+    clear:both;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bolder;
+    border: double green;
+          
+  }
+
+  .cajita1 {
+    background-color:orange;
+    width: 95%;
+  }
+
+  .cajita2 {
+    background-color:cyan;
+    width: 100%;
+  }
+  
+  img {
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 40%;
+  }
+
+h3 {
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+p {
+  margin-top:0;
+  margin-bottom: 0;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+
+.CajaFlotanteDerecha  {
+  font-weight: bold;
+  float: right;
+  width: 50%;
+  padding-top: 100px;
+}
+
+.seccion1 {
+  float: right;
+  text-align: justify;
+  text-indent: 40px;
+  font-weight:initial;
+}
+
+.seccion2 {
+  width: auto;
+  margin-left: 80px;
+  text-align: justify;
+  text-indent: 40px;
+
+}
+
+  .textoSubrayado {
+    text-decoration: underline;
+  }
+
+.textoCursiva {
+  font-style: italic;
+}
+
+.margenIzquierdo {
+  margin-left: 80px;
+}
