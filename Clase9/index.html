@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="clase9.css">
+  <title>Validación de Formularios</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">VALIDACIÓN DE FORMULARIOS</h1>
+    <div class="form-container">
+      <form id="myForm">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="username">Usuario</label>
+            <input type="text" class="form-control" id="username" required>
+            <div class="feedback"></div>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="password">Contraseña</label>
+            <input type="password" class="form-control" id="password" required>
+            <div class="feedback"></div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="confirmPassword">Repetir Contraseña</label>
+            <input type="password" class="form-control" id="confirmPassword" required>
+            <div class="feedback"></div>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="fullName">Nombre completo</label>
+            <input type="text" class="form-control" id="fullName" required>
+            <div class="feedback"></div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" required>
+            <div class="feedback"></div>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="age">Edad</label>
+            <input type="number" class="form-control" id="age" required>
+            <div class="feedback"></div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="phone">Teléfono</label>
+            <input type="tel" class="form-control" id="phone" required>
+            <div class="feedback"></div>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="address">Dirección</label>
+            <input type="text" class="form-control" id="address" required>
+            <div class="feedback"></div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="city">Ciudad</label>
+            <input type="text" class="form-control" id="city" required>
+            <div class="feedback"></div>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="postalCode">Código Postal</label>
+            <input type="text" class="form-control" id="postalCode" required>
+            <div class="feedback"></div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="dni">DNI</label>
+            <input type="text" class="form-control" id="dni" required>
+            <div class="feedback"></div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="clase9.js"></script>
+</body>
+
+</html>

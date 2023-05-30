@@ -1,0 +1,46 @@
+.container {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .title {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .feedback {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .feedback.valid {
+    color: green;
+  }
+  
+  @media (min-width: 768px) {
+    .form-row {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .form-group {
+      width: 48%;
+    }
+    
+    .form-group:last-child {
+      width: 100%;
+    }
+  }
+  
