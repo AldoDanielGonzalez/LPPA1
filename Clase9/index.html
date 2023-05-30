@@ -4,93 +4,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="clase9.css">
   <title>Validación de Formularios</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">  
 </head>
 
 <body>
   <div class="container">
-    <h1 class="title">VALIDACIÓN DE FORMULARIOS</h1>
+    <h1 class="title">VALIDACIÓN FORMULARIOS</h1>
     <div class="form-container">
       <form id="myForm">
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="username">Usuario</label>
-            <input type="text" class="form-control" id="username" required>
-            <div class="feedback"></div>
+            <input type="text" class="form-control" id="username" name="username" placeholder="Ingrese su usuario">
+            <div class="invalid-feedback"></div>
           </div>
           <div class="form-group col-md-6">
             <label for="password">Contraseña</label>
-            <input type="password" class="form-control" id="password" required>
-            <div class="feedback"></div>
+            <input type="password" class="form-control" id="password" name="password" placeholder="Ingrese su contraseña">
+            <div class="invalid-feedback"></div>
           </div>
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
-            <label for="confirmPassword">Repetir Contraseña</label>
-            <input type="password" class="form-control" id="confirmPassword" required>
-            <div class="feedback"></div>
+            <label for="confirmPassword">Confirmar Contraseña</label>
+            <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirme su contraseña">
+            <div class="invalid-feedback"></div>
           </div>
           <div class="form-group col-md-6">
-            <label for="fullName">Nombre completo</label>
-            <input type="text" class="form-control" id="fullName" required>
-            <div class="feedback"></div>
+            <label for="fullName">Nombre Completo</label>
+            <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Ingrese su nombre completo">
+            <div class="invalid-feedback"></div>
           </div>
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="email">Email</label>
-            <input type="email" class="form-control" id="email" required>
-            <div class="feedback"></div>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Ingrese su email">
+            <div class="invalid-feedback"></div>
           </div>
           <div class="form-group col-md-6">
             <label for="age">Edad</label>
-            <input type="number" class="form-control" id="age" required>
-            <div class="feedback"></div>
+            <input type="text" class="form-control" id="age" name="age" placeholder="Ingrese su edad">
+            <div class="invalid-feedback"></div>
           </div>
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="phone">Teléfono</label>
-            <input type="tel" class="form-control" id="phone" required>
-            <div class="feedback"></div>
+            <input type="text" class="form-control" id="phone" name="phone" placeholder="Ingrese su teléfono">
+            <div class="invalid-feedback"></div>
           </div>
           <div class="form-group col-md-6">
             <label for="address">Dirección</label>
-            <input type="text" class="form-control" id="address" required>
-            <div class="feedback"></div>
+            <input type="text" class="form-control" id="address" name="address" placeholder="Ingrese su dirección">
+            <div class="invalid-feedback"></div>
           </div>
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="city">Ciudad</label>
-            <input type="text" class="form-control" id="city" required>
-            <div class="feedback"></div>
+            <input type="text" class="form-control" id="city" name="city" placeholder="Ingrese su ciudad">
+            <div class="invalid-feedback"></div>
           </div>
           <div class="form-group col-md-6">
             <label for="postalCode">Código Postal</label>
-            <input type="text" class="form-control" id="postalCode" required>
-            <div class="feedback"></div>
+            <input type="text" class="form-control" id="postalCode" name="postalCode" placeholder="Ingrese su código postal">
+            <div class="invalid-feedback"></div>
           </div>
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="dni">DNI</label>
-            <input type="text" class="form-control" id="dni" required>
-            <div class="feedback"></div>
+            <input type="text" class="form-control" id="dni" name="dni" placeholder="Ingrese su DNI">
+            <div class="invalid-feedback"></div>
           </div>
         </div>
         <div class="form-row">
-          <div class="form-group col-md-12">
-            <button type="submit" class="btn btn-primary">Enviar</button>
+          <div class="form-group col-md-12 text-center">
+            <button type="submit" class="btn btn-primary">ENVIAR</button>
           </div>
         </div>
       </form>
     </div>
   </div>
 
-  <script src="clase9.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
