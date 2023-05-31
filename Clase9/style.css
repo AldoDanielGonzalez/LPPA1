@@ -1,7 +1,7 @@
 .container {
   background-color: #f2f2f2;
   padding: 20px;
-  width: 600px;
+  width: 40%;
   
 }
 
@@ -13,14 +13,16 @@
 }
 
 .form-container {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
+  
 }
 
 .form-row {
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
+  
 }
 
 .form-group {
@@ -28,7 +30,7 @@
 }
 
 .form-container button {
-  width: 100%;
+  width: 30%;
 }
 
 label {
@@ -48,9 +50,21 @@ label {
 
 @media (max-width: 767px) {
 
+.container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 100%;
+  
+}
+
   .title {
-    font-size: 50px;
-  }
+    font-size: 30px;
+}
+
+.form-container {
+  width: 500px;
+  margin: 0;
+}
 
   .form-row {
     flex-direction: column;
