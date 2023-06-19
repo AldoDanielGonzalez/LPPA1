@@ -1,0 +1,98 @@
+.container {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  padding: 40px;
+  background-color: rgb(181, 181, 181);
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+.container img {
+  float: right;
+  margin-right: 50px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-width: 1px 2px 2px 1px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.2));
+}
+
+
+
+.container h1 {
+  color: navy;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+
+#resultContainer {
+  display: none;
+  background-color: greenyellow;
+  text-align: center;
+}
+
+#resultTitle {
+  color: blueviolet;
+  font-size: larger;
+  padding: 10px;
+}
+
+#result {
+  padding: 10px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:xx-large;
+  color: green;
+}
+
+.form-group {
+  width: fit-content;
+  display: block;
+}
+
+select#dimension {
+  width: auto;
+  display: flex;
+}
+
+input {
+  width: 80px;
+  max-width: 80px;
+}
+
+.form-inline>* {
+  margin: 10px 3px;
+}
+
+button[type="submit"] {
+  display: block;
+  margin-top: 20px;
+}
+
+#pointA,
+#pointB {
+  align-items: center;
+}
+
+#pointA label,
+#pointB label {
+  margin-right: 5px;
+}
+
+#pointA input:nth-child(n+2),
+#pointB input:nth-child(n+2) {
+  margin-left: 5px;
+}
+
+#pointAError,
+#pointBError {
+  margin-left: 10px;
+}
+
+.text-danger {
+  color: red;
+}
+
+.is-invalid {
+  border-color: red;
+}

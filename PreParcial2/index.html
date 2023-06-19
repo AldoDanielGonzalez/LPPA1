@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Calculadora de Distancia</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>CALCULADORA DE DISTANCIA</h1>
+
+    <form id="distanceForm" class="mt-5">
+      <div class="form-group form-inline">
+        <label for="dimension">Elija la Dimensionalidad Necesaria:</label>
+      </div>
+
+      <div class="form-group form-inline">
+        <label for="dimension" class="mr-2">Dimensionalidad:</label>
+        <div class="dropdown-container dropdown-menu-right">
+          <select id="dimension" class="form-control">
+            <option value="2">2D</option>
+            <option value="3">3D</option>
+          </select>
+        </div>
+      </div>
+
+      <p>Introduzca las coordenadas de puntos.</p>
+
+      <img src="Distancia.png" alt="">
+
+      <div id="pointA" class="mt-4 form-inline">
+        <label>A:</label>
+        <span>(</span>
+        <input type="number" id="pointAX" class="form-control mx-1" value="0" maxlength="3">
+        <span>,</span>
+        <input type="number" id="pointAY" class="form-control mx-1" value="0" maxlength="3">
+        <span id="pointAZSeparator"></span>
+        <input type="number" id="pointAZ" class="form-control mx-1" value="0" maxlength="3">
+        <span>)</span>
+      </div>
+
+      <div id="pointB" class="mt-4 form-inline">
+        <label>B:</label>
+        <span>(</span>
+        <input type="number" id="pointBX" class="form-control mx-1" value="0" maxlength="3">
+        <span>,</span>
+        <input type="number" id="pointBY" class="form-control mx-1" value="0" maxlength="3">
+        <span id="pointBZSeparator"></span>
+        <input type="number" id="pointBZ" class="form-control mx-1" value="0" maxlength="3">
+        <span>)</span>
+      </div>
+
+      <div class="d-flex justify-content-center mt-4">
+        <button type="submit" class="btn btn-primary bg-secondary">Calcular Longitud del segmento AB</button>
+      </div>
+    </form>
+
+    <div id="resultContainer" class="mt-4">
+      <div id="resultTitle" class="bg-dark text-white">RESULTADO:</div>
+      <div id="result"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
